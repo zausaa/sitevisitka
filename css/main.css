@@ -1,0 +1,145 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto';
+	font-weight:lighter;
+
+}
+.clearfix:after{
+	content: ' ';
+	display: table;
+	clear: both;
+
+}
+
+.header{
+  background:#E8E7E2;	
+}
+.header-layout{
+	width: 950px;
+	margin: 0 auto;
+}
+.about-me-layout{
+	width: 950px;
+	margin: 0 auto;
+
+}
+.features-layout{
+	width: 950px;
+	margin: 0 auto;
+}
+.navigation-bar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.navigation-bar li{
+	display:inline-block;
+	padding: 0;
+	margin: 0;
+}
+.navigation-bar a{
+	display:block;
+	padding: 40px;
+	min-width: 100px;
+	text-decoration: none;
+	color:white;
+	background:#3E454C;
+	border-left: 1px solid #64696F;
+}
+.navigation-bar a:hover{
+	background: #373D43;
+}
+.about-me-text{
+	float:right;
+	max-width: 600px;
+	min-height: 400px;	
+	padding-left: 350px;
+	background-image: url(http://cs408125.vk.me/v408125705/9596/bvgd3g8li0o.jpg);
+	background-repeat: no-repeat;
+}
+.about-me-button{
+	display: block;
+	padding: 23px;
+	max-width: 230px;
+	background: #8ABBCA;
+	box-sizing: border-box;
+	-moz- box-sizing:border-box;
+	text-align: center;
+	margin-top: 20px;
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+.about-me-button:hover{
+	background:#3E454C;
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	transition: background 0.5s ease;
+}
+.features{
+	background:#F3F3F0;
+}
+.feature-1,.feature-2,.feature-3{
+	float:left;
+	max-width: 300px;
+	
+	margin-right: 25px;
+	overflow: hidden;
+
+}
+.feature-3{
+	margin-right: 0px;
+}
+.btn{
+	display: block;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background:#8ABBCA;
+	max-width: 150px;
+	padding: 15px;
+	color:white;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 130px;
+
+}
+.btn:hover{
+	background:#3E454C;
+	-webkit-transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	transition: background 0.5s ease;
+}
+.zagalovok{
+	text-transform: uppercase;
+	font-size: xx-large;
+	max-width: 285px;
+	display: inline-block;
+	overflow: hidden;
+	word-wrap:break-word;
+	color:#8ABBCA;
+	padding-top: 170px;
+	background-image: url(http://zausaa.mcdir.ru/img/cat.png);
+	background-repeat: no-repeat;
+}
+.pseudo-h2{
+	padding-bottom: 43px;
+	background-image: url(http://zausaa.mcdir.ru/img/cat-2.png);
+	background-repeat: no-repeat;
+	background-position: 45% 10%;
+}
+.pseudo-h3{
+	background-image: url(http://zausaa.mcdir.ru/img/cat-3.png);
+	background-repeat: no-repeat;
+}
+.feature-text-block{
+	display: inline-block;
+}
+.footer{
+	background:#3E454C;
+	min-height: 150px;
+}
